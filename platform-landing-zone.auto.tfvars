@@ -193,22 +193,7 @@ management_group_settings = {
     */
   }
   subscription_placement = {
-    identity = {
-      subscription_id       = "$${subscription_id_identity}"
-      management_group_name = "identity"
-    }
-    connectivity = {
-      subscription_id       = "$${subscription_id_connectivity}"
-      management_group_name = "connectivity"
-    }
-    management = {
-      subscription_id       = "$${subscription_id_management}"
-      management_group_name = "management"
-    }
-    security = {
-      subscription_id       = "$${subscription_id_security}"
-      management_group_name = "security"
-    }
+
   }
   policy_assignments_to_modify = {
     alz = {
@@ -324,5 +309,6 @@ hub_virtual_networks = {
     }
   }
 }
+
 
 # private_link_private_dns_zone_virtual_network_link_moved_blocks_enabled = true
